@@ -1,0 +1,26 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    background: rgb(236, 234, 234);
+    margin: 10px;
+    border: 1px solid rgb(92, 91, 91);
+    height: 100px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.subtotalitem {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.button {
+    background: #ff9900;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
