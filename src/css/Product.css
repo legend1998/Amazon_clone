@@ -6,9 +6,9 @@
     justify-content: center;
     margin: 10px;
     border-radius: 5px;
+    background: white;
     padding: 20px;
     align-items: center;
-    background: white;
 
 }
 
@@ -25,4 +25,7 @@
 
 .product_button {
     background: #ff9900;
+    border: #ff9945 1px;
+    padding: 5px;
+    margin: 10px;
 }

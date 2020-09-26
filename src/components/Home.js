@@ -10,8 +10,7 @@ export default function Home() {
         alt="this is image"
         className="body_image"
       />
-      <div className="container">
-        {/* product */}
+      <div className="home_container">
         <Product
           id="12"
           desc="Ketofy - Dark Keto Chocolate (50g) | Sugar Free Unsweetened Intense Dark
@@ -26,7 +25,7 @@ export default function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/71P%2BxcHYy9L._SL1500_.jpg"
         />
       </div>
-      <div className="container">
+      <div className="home_container">
         <Product
           id="14"
           desc="Ketofy - Dark Keto Chocolate (50g) | Sugar Free Unsweetened Intense Dark
@@ -48,9 +47,8 @@ export default function Home() {
           price={199.0}
           image="https://images-na.ssl-images-amazon.com/images/I/81EYbsEMMYL._SL1500_.jpg"
         />
-        {/* product */}
       </div>
-      <div className="container">
+      <div className="home_container">
         <Product
           id="17"
           desc="Ketofy - Dark Keto Chocolate (50g) | Sugar Free Unsweetened Intense Dark
@@ -58,7 +56,6 @@ export default function Home() {
           price={199.0}
           image="https://images-na.ssl-images-amazon.com/images/I/81EYbsEMMYL._SL1500_.jpg"
         />
-        {/* product */}
       </div>
     </div>
   );
